@@ -1,0 +1,78 @@
+.scoreValue {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  white-space: normal;
+  font-size: 18px;
+}
+.scoreValue:hover {
+  color: white;
+}
+
+.scoreValue > div {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+
+.scoreValue > div > b {
+  display: inline-block;
+  width: 9px;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .scoreValue > div > b {
+    width: 7px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .scoreValue > div > b {
+    width: 6px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+.scoreValue > div > b::before {
+  content: " 0 1 2 3 4 5 6 7 8 9 ";
+  display: block;
+  word-break: break-all;
+  -webkit-transition: 0.5s ease-in-out, color 0s;
+  transition: 0.5s ease-in-out, color 0s;
+}
+
+.scoreValue > div > b[data-value="1"]::before {
+  margin-top: -30px;
+}
+.scoreValue > div > b[data-value="2"]::before {
+  margin-top: -60px;
+}
+.scoreValue > div > b[data-value="3"]::before {
+  margin-top: -90px;
+}
+.scoreValue > div > b[data-value="4"]::before {
+  margin-top: -120px;
+}
+.scoreValue > div > b[data-value="5"]::before {
+  margin-top: -150px;
+}
+.scoreValue > div > b[data-value="6"]::before {
+  margin-top: -180px;
+}
+.scoreValue > div > b[data-value="7"]::before {
+  margin-top: -210px;
+}
+.scoreValue > div > b[data-value="8"]::before {
+  margin-top: -240px;
+}
+.scoreValue > div > b[data-value="9"]::before {
+  margin-top: -270px;
+}
