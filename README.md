@@ -57,3 +57,10 @@ npm start
 ```
 
 You should see the app in your browser address bar at [http://localhost:3000](http://localhost:3000)
+
+![image](https://github.com/matrix-2023/score-board/assets/143998226/c08d6996-b1fe-4746-a260-2bf21458c039)
+
+# **Live Demo Screen Recording:**
+
+[screen-capture (3).webm](https://github.com/matrix-2023/score-board/assets/143998226/fc80f984-9dbe-40cd-95ed-dd3a79521c30)
+
